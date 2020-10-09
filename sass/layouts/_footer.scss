@@ -5,7 +5,9 @@
 .footer__column:not(:last-child) {
   // margin-right: 70px;
 }
-@media screen and (max-width: 479px){
+
+
+@media screen and (max-width: 768px){
   address {
     margin-bottom: 60px;
   }
@@ -15,7 +17,7 @@
   padding-bottom: 60px;
   background-color: #2f303a;
 
-  @media screen and (max-width: 479px){
+  @media screen and (max-width: 768px){
     text-align: center;}
 
   .logo {
@@ -51,7 +53,7 @@
 .contacts--footer {
   margin-bottom: 9px;
 
-  @media screen and (max-width: 479px){
+  @media screen and (max-width: 768px){
     display: block;}
     margin-right: 0;
     margin-bottom: 8px;
@@ -86,7 +88,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 
-  @media screen and (max-width: 479px){
+  @media screen and (max-width: 768px){
     margin-bottom: 20px;;}
 }
 .footer-form-field input::placeholder {
