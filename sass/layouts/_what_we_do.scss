@@ -1,5 +1,14 @@
+// Скрываем секцию для мобилок
+
+.what-we-do {
+  display: none;
+
+
+}
+
 .what-we-do-list {
-  display: flex;
+
+  // display: flex;
 
  & li:not(:last-child) {
   margin-right: 30px;

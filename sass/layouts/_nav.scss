@@ -1,10 +1,12 @@
 
 .header__nav {
+  
   display: flex;
   align-items: center;
   
   &__list {
-  display: flex;
+    display: none;
+  // display: flex;
 
   & > li:not(last-child) {
   margin-right: 50px;

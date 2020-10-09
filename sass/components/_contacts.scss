@@ -1,5 +1,6 @@
 .header__address {
-  display: flex;
+  display: none;
+  // display: flex;
   margin-left: auto;
   
    .contacts {
@@ -10,6 +11,7 @@
 }
 
 .contacts {
+  display: none;
   color: $secondary-text-color;
   font-weight: 500;
   font-style: normal;
