@@ -7,7 +7,6 @@
   height: 100%;
 
   background-color: rgba(0, 0, 0, 0.2);
-
   transition: linear 500ms;
 }
 
@@ -24,12 +23,22 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 450px;
+  max-width: 100%;
+max-height: 100%;
+overflow-y: auto;
+  
+  @media screen and (min-width: 1280px) {
+  min-width: 528px;
+  min-height: 581px;
+  }
+  
+
   transform: translate(-50%, -50%) scale(1);
   padding: 40px;
 
   transition: all 250ms;
-  min-width: 528px;
-  min-height: 581px;
+  
   background-color: #ffffff;
 }
 .modal-text {
@@ -42,10 +51,12 @@
 }
 
 .modal-form {
+  margin-top: 2px;
+
   display: flex;
   flex-direction: column;
 
-  margin-top: 12px;
+  // margin-top: 12px;
   margin-left: auto;
   margin-right: auto;
 }
