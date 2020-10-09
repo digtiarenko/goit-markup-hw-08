@@ -1,0 +1,42 @@
+.clients {
+  display: flex;
+}
+.clients__logo {
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+
+  transition: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+&:focus {
+  border: 1px solid #2196f3;
+}
+}
+.clients__logo svg {
+  fill: #afb1b8;
+
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients__logo:hover svg,
+.clients__logo:focus svg {
+  fill: $accent-text-color;
+}
+
+
+.clients__link {
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  
+  &:not(:last-child) {
+  margin-right: 30px;}
+}

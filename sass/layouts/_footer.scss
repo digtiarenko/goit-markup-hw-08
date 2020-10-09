@@ -1,0 +1,85 @@
+.container--footer {
+  display: flex;
+}
+.footer__column:not(:last-child) {
+  margin-right: 70px;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+  
+  .logo {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+}
+
+.footer__text {
+  color: #ffffff;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: #2f303a;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.footer__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.contacts--footer {
+  margin-bottom: 9px;
+}
+.social-network-logo--footer {
+  fill: #ffffff;
+}
+
+.footer .social-network-item {
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover,
+&:focus {
+  background-color: $accent-text-color;
+}
+}
+
+.footer-form-field input {
+  margin-right: 12px;
+  padding: 12px;
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  color: #f5f4fa;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.footer-form-field input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+}
+
+.send-icon {
+  fill: #fff;
+  position: absolute;
+  margin-left: 10px;
+}
