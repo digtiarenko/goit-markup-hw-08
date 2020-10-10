@@ -1,4 +1,9 @@
 .social-network-list {
+
+@media screen and (max-width: 767px) {
+  margin-bottom: 60px;
+}
+
   display: flex;
   justify-content: center;
   margin-top: 16px;
@@ -9,7 +14,6 @@
   margin-right: 10px;
 }
 }
-
 
 .social-network-item {
   display: flex;

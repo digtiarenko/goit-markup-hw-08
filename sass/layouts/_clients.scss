@@ -3,8 +3,6 @@
   flex-wrap: wrap;
    }
 
-
-
 .clients__link {
   display: flex;
   height: 90px;
@@ -15,10 +13,26 @@
   justify-content: center;
   align-items: center;
 
-  
-  &:nth-child(2n + 1) { 
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 2 * 30px) / 3);
+    margin-right: 30px;
+
+    &:nth-child(3) {
+      margin-right: 0;
+    }
+    &:nth-child(6) {
+      margin-right: 0;
+    }
+
+    
+  }
+  @media screen and (max-width: 767px) {
+    &:nth-child(2n + 1) { 
   margin-right: 30px;
   }
+  }
+
+  
   &:last-child {
   margin-bottom: 60px;
 }

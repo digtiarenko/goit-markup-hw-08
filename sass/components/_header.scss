@@ -1,6 +1,12 @@
 .container.header {
   // display: flex;
   text-align: center;
+
+  @media screen and (min-width: 768px) {
+    height: 80px;
+  }
+  
+  
 }
 .page__header {
   border-bottom: 1px solid #ececec;}
@@ -45,7 +51,22 @@
     left: 0;
     z-index: 100;
 
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
     &.is-open {
       display: block;
     }
   }
+
+  
+@media screen and (min-width: 768px) {
+.mobile.x {
+  display: none;
+}
+}

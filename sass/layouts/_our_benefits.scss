@@ -1,6 +1,10 @@
 .our-benefits__list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
   
-  // display: flex;
 }
 
 .our-benefits__item svg {
@@ -20,9 +24,20 @@ margin-right: auto;
 }
 .our-benefits__item {
 display: block;
+@media screen and (min-width:768px) {
+  flex-basis: calc((100% - 3 * 10px) / 2)
+  }
+  &:first-child {
+    @media screen and (min-width:768px) {
+    margin-bottom: 30px;}
+  }
   // width: 270px;
   &:last-child {
     margin-bottom: 60px;
+    // @media screen and (min-width:768px) {
+    //   margin-bottom: 0;
+    // }
+
   }
 
   &:not(:last-child) {

@@ -21,10 +21,13 @@
 
   &--send {
   text-align: left;
+  width: 200px;
+  display: flex;
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1199px){
      display: flex;
       margin-right: auto;
+      margin-top: 20px;
   margin-left: auto;
   }
 }
