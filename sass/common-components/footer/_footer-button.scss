@@ -1,0 +1,55 @@
+.footer-button {
+  position: relative;
+
+  padding: 0px;
+  margin: 0px;
+
+  width: 200px;
+
+  background-color: $accent-color;
+  box-shadow: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.footer-button__text {
+  display: flex;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 29px;
+  margin-right: 10px;
+
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+
+  align-items: center;
+  justify-content: baseline;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.footer-button__icon {
+  display: flex;
+
+  position: absolute;
+  top: 13px;
+  right: 28px;
+
+  width: 24px;
+  height: 24px;
+
+  fill: #ffffff;
+}

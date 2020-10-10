@@ -1,0 +1,35 @@
+// common header
+@import './utils/variables';
+@import './utils/mixins';
+@import './common-components/body';
+@import './utils/utils-classes';
+@import './common-components/header/page-header';
+@import './common-components/header/logo-header';
+@import './common-components/header/site-nav';
+@import './common-components/header/contacts-header';
+@import './common-components/header/menu-button-mobile';
+@import './common-components/header/mobile-menu';
+
+// unique
+@import './index-components/hero';
+@import './index-components/hero-button';
+@import './index-components/feature-section';
+@import './index-components/work-section';
+@import './index-components/team-section';
+@import './index-components/clients-section';
+@import './index-components/backdrop';
+@import './index-components/modal';
+@import './index-components/modal-form';
+@import './index-components/modal-button';
+
+// common footer
+@import './common-components/footer/page-footer';
+@import './common-components/footer/footer-logo-container';
+@import './common-components/footer/logo-contacts';
+@import './common-components/footer/logo-contacts__logo';
+@import './common-components/footer/logo-footer';
+@import './common-components/footer/contacts-text';
+@import './common-components/footer/footer-social-links';
+@import './common-components/footer/footer-social__list';
+@import './common-components/footer/footer-form';
+@import './common-components/footer/footer-button';

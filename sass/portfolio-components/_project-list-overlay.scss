@@ -1,0 +1,40 @@
+.project-list__overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+ 
+  padding: 0px;
+  margin: 63px 24px;
+
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+
+  opacity: 0;
+  z-index: 1;
+  pointer-events: none;
+
+  transform: translateY(100%);
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .project-list__item:hover & {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 306px;
+    height: 196px;
+    margin: 49px 24px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 324px;
+    height: 168px;
+  }
+}

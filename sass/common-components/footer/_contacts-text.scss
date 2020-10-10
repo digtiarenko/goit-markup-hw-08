@@ -1,0 +1,39 @@
+.contacts-text {
+  margin-top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 60px;
+  }
+}
+
+.contacts-text__map {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 9px;
+
+  color: #ffffff;
+}
+
+.contacts-text__address {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-text__mail-tel {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 9px;
+}

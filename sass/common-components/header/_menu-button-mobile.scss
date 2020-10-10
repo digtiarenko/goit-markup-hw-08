@@ -1,0 +1,28 @@
+.menu-button {
+  display: inline-flex;
+  align-items: center;
+  width: 26px;
+  height: 16px;
+
+  padding: 0px;
+  margin: 0px;
+
+  border: none;
+  background-color: transparent;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.menu-button__icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .menu-button__icon-menu {
+  display: none;
+}
+
+.menu-button.is-open .menu-button__icon-cross {
+  display: block;
+}
