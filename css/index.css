@@ -38,7 +38,6 @@ img {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    height: 600px;
   }
 }
 
@@ -439,7 +438,8 @@ img {
 @media screen and (min-width: 1200px) {
   .overlay {
     max-width: 1600px;
-    max-height: 600px;
+    max-height: 733px;
+    height: 600px;
     margin-right: auto;
     margin-left: auto;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Header_img_desktop.jpg");
@@ -1624,9 +1624,14 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-form {
     width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-form {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1636,7 +1641,7 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-form {
     margin-right: 0px;
-    margin-left: auto;
+    margin-left: 0;
   }
 }
 
@@ -1650,6 +1655,20 @@ img {
   letter-spacing: 1.14;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-form__subscribe {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-form-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .footer-form-flex [name='e-mail'] {
@@ -1681,6 +1700,12 @@ img {
   border-radius: 4px;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-form__input {
+    width: 358px;
+  }
+}
+
 .footer-form__input:hover {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -1691,6 +1716,7 @@ img {
   padding: 0px;
   margin: 0px;
   width: 200px;
+  height: 50px;
   background-color: #2196f3;
   -webkit-box-shadow: none;
           box-shadow: none;

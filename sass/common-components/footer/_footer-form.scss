@@ -6,17 +6,21 @@
   @media screen and (min-width: 480px) {
     text-align: center;
   }
-
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+   width: 450px;
+}
   @media screen and (min-width: 768px) {
-    width: 450px;
+   
     text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
 
   @media screen and (min-width: 1200px) {
-    margin-right: 0px;
-    margin-left: auto;
+        margin-right: 0px;
+    margin-left: 0;
+    // display: flex;
+    // flex-direction: column;
   }
 }
 
@@ -32,10 +36,18 @@
   text-transform: uppercase;
 
   color: #ffffff;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+  
 }
 
 .footer-form-flex {
-  & [name='e-mail'] {
+@media screen and (min-width: 1200px) {
+   display: flex;
+}
+
+   & [name='e-mail'] {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -57,6 +69,10 @@
 
   width: 100%;
   height: 50px;
+
+  @media screen and (min-width:1200px) {
+    width: 358px;
+  }
 
   background: #2f303a;
 
