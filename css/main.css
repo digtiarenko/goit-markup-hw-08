@@ -178,6 +178,7 @@ header {
   background-color: #fff;
   width: 100%;
   left: 0;
+  z-index: 100;
 }
 
 .menu-container.is-open {
