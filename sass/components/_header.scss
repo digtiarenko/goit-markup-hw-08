@@ -4,5 +4,47 @@
 }
 .page__header {
   border-bottom: 1px solid #ececec;}
+
+  .mobile {
+    display: flex;
+    justify-content: space-between;
+  }
   
-  
+  .menu-button {
+    display: inline-block;
+    // margin-top: 16px;
+    // margin: 0;
+    padding: 0;
+   border: none;
+   background-color: transparent;
+
+   &:hover, &:focus {
+     fill: $accent-text-color;
+   }
+  }
+
+  .menu-button .icon-cross {
+    display: none;
+  }
+
+  .menu-button.is-open .icon-cross {
+    display: block;
+  }
+  .menu-button.is-open .icon-menu {
+    display: none;
+  }
+
+  header{
+    position: relative;
+  }
+  .menu-container {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+
+    &.is-open {
+      display: block;
+    }
+  }
