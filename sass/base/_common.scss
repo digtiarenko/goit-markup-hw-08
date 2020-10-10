@@ -46,14 +46,19 @@ input[type="radio"].visually-hidden {
   margin-top: 0;
   margin-bottom: 30px;
 
-// margin-top: 0;
-//   margin-bottom: 50px;
+@media screen and (min-width: 1200px) {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
 
 font-size: 28px;
 line-height: 1.178;
+@media screen and (min-width: 1200px) {
+  font-size: 36px;
+  line-height: 1.16;
+}
 
-// font-size: 36px;
-//   line-height: 1.16;
   color: $primary-text-color;
   font-weight: bold;
   

@@ -15,12 +15,14 @@
 
 .footer__column {
   text-align: center;
-  padding-right: 100px;
+  
   &:last-child {
     margin-top: 60px;
+    padding-right: 200px;
+    padding-left: 200px;
+
   }
 }
-
 
 @media screen and (max-width: 767px){
   address {
@@ -106,9 +108,10 @@ line-height: 1.71;
 
 
 .footer-form-field input {
-  // margin-right: 12px;
+  
 @media screen and (min-width: 1200px) {
   width: 358px;
+  margin-right: 12px;
 }
 
   padding: 12px;

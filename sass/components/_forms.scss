@@ -50,7 +50,7 @@ textarea::placeholder {
 }
 
 .form-field__label.policy {
-  @media screen and (max-width:1119px) {
+  @media screen and (max-width:1199px) {
     font-size: 12px;
     line-height: 1.16;
   }
@@ -103,7 +103,7 @@ input[type="checkbox"] {
   margin-left: 0;
   margin-right: 4px;
 
-@media screen and (min-width: 1119px) {
+@media screen and (min-width: 1200px) {
   margin-bottom: -3px;
   margin-left: 8px;
   margin-right: 8px;
