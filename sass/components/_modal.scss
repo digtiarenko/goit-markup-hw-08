@@ -28,7 +28,7 @@
 max-height: 100%;
 overflow-y: auto;
   
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
   min-width: 528px;
   min-height: 581px;
   }
@@ -56,7 +56,11 @@ overflow-y: auto;
   display: flex;
   flex-direction: column;
 
-  // margin-top: 12px;
+ 
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (min-width:1200px) {
+ margin-top: 12px;
+  }
 }

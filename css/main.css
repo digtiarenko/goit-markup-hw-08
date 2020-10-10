@@ -78,6 +78,14 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
 }
 
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+    margin-right: 93px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .logo.x {
     display: none;
@@ -210,17 +218,47 @@ input[type="radio"].visually-hidden {
   display: none;
 }
 
-header {
+.header {
   position: relative;
 }
 
 .menu-container {
   display: none;
-  position: absolute;
   background-color: #fff;
   width: 100%;
   left: 0;
   z-index: 100;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-container {
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .menu-container {
+    position: relative;
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .menu-container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .menu-container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-container {
+    width: 1200px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -256,8 +294,32 @@ header {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 .section {
   padding-top: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section--basic {
+    padding-bottom: 94px;
+  }
 }
 
 .section--team {
@@ -412,7 +474,7 @@ header {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts {
     display: flex;
     font-size: 12px;
@@ -460,6 +522,14 @@ header {
 @media screen and (min-width: 768px) {
   .hero-container {
     height: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    height: 600px;
+    max-width: 100%;
+    max-width: 1600px;
   }
 }
 
@@ -639,12 +709,6 @@ header {
   background-color: #fff;
 }
 
-@media screen and (min-width: 1152px) {
-  .our-team-list > li {
-    margin-right: 30px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .our-team-list > li:last-child {
     margin-bottom: 0;
@@ -810,10 +874,12 @@ header {
   text-align: center;
 }
 
-.footer__column:last-child {
-  margin-top: 60px;
-  padding-right: 200px;
-  padding-left: 200px;
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__column:last-child {
+    margin-top: 60px;
+    padding-right: 200px;
+    padding-left: 200px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -976,7 +1042,7 @@ header {
   background-color: #ffffff;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .modal {
     min-width: 528px;
     min-height: 581px;
@@ -1000,11 +1066,23 @@ header {
   margin-right: auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal-form {
+    margin-top: 12px;
+  }
+}
+
 .form-field {
   position: relative;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+  .form-field {
+    margin-bottom: 4px;
+  }
 }
 
 .form-field__icon {
