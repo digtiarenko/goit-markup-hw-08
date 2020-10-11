@@ -46,6 +46,11 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
 
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.16;
+  }
+
   align-items: center;
 
   text-decoration: none;
